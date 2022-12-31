@@ -1,0 +1,70 @@
+OOP বা অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং "অবজেক্ট" কনসেপ্টের উপর ভিত্তি করে তৈরি করা হয়েছে। যেখানে ডেটা এবং কোড 
+থাকবে এবং কোড সেই ডেটাকে ম্যানিপুলেট করতে পারবে। 
+প্রোগ্রামিং এর বেলায় একজন প্রোগ্রামার ডেটা স্ট্রাকচারের ডেটা টাইপ নির্ধারণ করে এবং ডেটা স্ট্রাকচারে কি ধরণের অপারেশন 
+অ্যাপ্লাই করা যেতে পারে তা নির্ধারণ বা ডিফাইন করে। 
+
+OOP Advantage:
+OOP এর প্রধান সুবিধা হল বাস্তব জীবনের বা রিয়েল ওয়ার্ল্ডের entiti গুলোকে অবজেক্ট হিসেবে তৈরি করতে পারে প্রোগ্রামাররা। যে কারণে কোড বোঝা এবং সেসব নিয়ে কাজ করা ইজি হয়ে যায়। কারণ ডেটাতে কাজ করে এমন ডেটা এবং ফাংশনগুলিকে single entity তে কম্বাইন করা হয়। যা কোডকে মডুলারাইজ করে এবং পুনরায় ব্যবহার করার জন্য কোডকে ইজি করে তোলে। 
+
+OOP Goal:
+OOP এর লক্ষ্য হল কোডকে এমনভাবে সংগঠিত করা যাতে এটি বজায় রাখা যায় এবং সহজে পড়া যায় এবং পুনরায় ব্যবহারযোগ্য হয়। 
+
+
+OOP তে  অবজেক্ট তৈরি করা হয় class থেকে। যেখানে অবজেক্টের characteristics and behavior ডিফাইন করা হয়। A class can have properties (data) and methods (functions) associated with it. 
+একটি অবজেক্ট যে কোন ক্লাসের instance হিসেবে কাজ করে বা ক্লাসের একটি উদাহরণ এবং ক্লাসের constructor function কল করে এটি create করা হয়। 
+
+
+class person:
+    def __init__(self, name, age, city):
+        self.name = name
+        self.age = age 
+        self.city = city
+    def info(self):
+        print(f"Hello! I am {self.name}. I am {self.age} years old and I came from {self.city}")
+
+# create an instance of the person class
+person1 = person('Shakil', 25, 'Rajshahi')
+
+# call the method
+person1.info()
+
+এখানে  Person class has three properties: name, age and city. 
+and one method: info. 
+
+The __init__ method is a special method in Python that is called when an object is created, and it is used to initialize the object's properties. The 'info' method is a simple function that prints a greeting message to the console.
+
+The person1 object is an instance of the Person class, and it is created by calling the Person class's constructor function with the arguments "Shakil", 30 and "Rajshahi". When we call the info method on the person1 object, it prints the greeting message to the console.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
