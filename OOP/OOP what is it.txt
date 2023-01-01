@@ -1,7 +1,5 @@
-OOP বা অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং "অবজেক্ট" কনসেপ্টের উপর ভিত্তি করে তৈরি করা হয়েছে। যেখানে ডেটা এবং কোড 
-থাকবে এবং কোড সেই ডেটাকে ম্যানিপুলেট করতে পারবে। 
-প্রোগ্রামিং এর বেলায় একজন প্রোগ্রামার ডেটা স্ট্রাকচারের ডেটা টাইপ নির্ধারণ করে এবং ডেটা স্ট্রাকচারে কি ধরণের অপারেশন 
-অ্যাপ্লাই করা যেতে পারে তা নির্ধারণ বা ডিফাইন করে। 
+OOP বা অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং "অবজেক্ট" কনসেপ্টের উপর ভিত্তি করে তৈরি করা হয়েছে। যেখানে ডেটা এবং কোড থাকবে এবং কোড সেই ডেটাকে ম্যানিপুলেট করতে পারবে। 
+প্রোগ্রামিং এর বেলায় একজন প্রোগ্রামার ডেটা স্ট্রাকচারের ডেটা টাইপ নির্ধারণ করে এবং ডেটা স্ট্রাকচারে কি ধরণের অপারেশন অ্যাপ্লাই করা যেতে পারে তা নির্ধারণ বা ডিফাইন করে। 
 
 OOP Advantage:
 OOP এর প্রধান সুবিধা হল বাস্তব জীবনের বা রিয়েল ওয়ার্ল্ডের entiti গুলোকে অবজেক্ট হিসেবে তৈরি করতে পারে প্রোগ্রামাররা। যে কারণে কোড বোঝা এবং সেসব নিয়ে কাজ করা ইজি হয়ে যায়। কারণ ডেটাতে কাজ করে এমন ডেটা এবং ফাংশনগুলিকে single entity তে কম্বাইন করা হয়। যা কোডকে মডুলারাইজ করে এবং পুনরায় ব্যবহার করার জন্য কোডকে ইজি করে তোলে। 
@@ -10,8 +8,7 @@ OOP Goal:
 OOP এর লক্ষ্য হল কোডকে এমনভাবে সংগঠিত করা যাতে এটি বজায় রাখা যায় এবং সহজে পড়া যায় এবং পুনরায় ব্যবহারযোগ্য হয়। 
 
 
-OOP তে  অবজেক্ট তৈরি করা হয় class থেকে। যেখানে অবজেক্টের characteristics and behavior ডিফাইন করা হয়। A class can have properties (data) and methods (functions) associated with it. 
-একটি অবজেক্ট যে কোন ক্লাসের instance হিসেবে কাজ করে বা ক্লাসের একটি উদাহরণ এবং ক্লাসের constructor function কল করে এটি create করা হয়। 
+OOP তে  অবজেক্ট তৈরি করা হয় class থেকে। যেখানে অবজেক্টের characteristics and behavior ডিফাইন করা হয়। A class can have properties (data) and methods (functions) associated with it. একটি অবজেক্ট যে কোন ক্লাসের instance হিসেবে কাজ করে বা ক্লাসের একটি উদাহরণ এবং ক্লাসের constructor function কল করে এটি create করা হয়। 
 
 
 class person:
@@ -34,6 +31,32 @@ and one method: info.
 The __init__ method is a special method in Python that is called when an object is created, and it is used to initialize the object's properties. The 'info' method is a simple function that prints a greeting message to the console.
 
 The person1 object is an instance of the Person class, and it is created by calling the Person class's constructor function with the arguments "Shakil", 30 and "Rajshahi". When we call the info method on the person1 object, it prints the greeting message to the console.
+*********************************************************************************************************************************
+
+
+𝐭𝐨𝐩 𝟏𝟎 𝐚𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 𝐨𝐟 𝐎𝐛𝐣𝐞𝐜𝐭-𝐎𝐫𝐢𝐞𝐧𝐭𝐞𝐝 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐢𝐧𝐠:
+
+1. In parallel programming, an issue is split up into smaller subproblems that can all be worked on simultaneously utilizing different computing resources. OOPs, are utilized to streamline the procedure by improving the network’s capacity for approximation and prediction.
+
+2. When creating client-server systems, OOPs principles are quite helpful. To construct Object-oriented server internet, or OCSI, applications, the IT infrastructure is created using Object-oriented client-server systems.
+
+3. OOP can be used to reduce the amount of work required in manufacturing and designing applications. It can be applied, for instance, when creating flowcharts and blueprints. So, it makes it possible to produce these flowcharts and blueprints accurately.
+
+4. OOP is helpful in hypertext and hypermedia. It aids in laying the framework for hypertext and hypermedia
+
+5. Simulation and modeling systems are imitations of the real-world product. The system’s workings can be checked and analysed using object-oriented programming.
+
+6. OOP helps users to minimize the work required and can be applied in both application design and manufacturing. For example, it can be applied when creating flowcharts and blueprints. The ability to precisely construct these flowcharts and blueprints is therefore made possible.
+
+7. OOP is beneficial in hypermedia and hypertext. It assists in establishing the foundation for hypertext and hypermedia.
+
+8. Systems used for simulation and modeling are an emulation of real-world products. Using object-oriented programming, the operation of the system may be examined.
+
+9. The conventional form of storing data, known as the relational model, saves every single piece of data in tables made up of rows and columns. Today, every single piece of data is stored and processed in object-oriented databases.
+
+10. It is beneficial in computer-aided design (CAD), which uses workstations or computers to assist in the creation, modification, analysis, or optimization of a design.
+ 
+𝐂𝐨𝐧𝐜𝐥𝐮𝐬𝐢𝐨𝐧: User interface design, including windows and menus, real-time systems, simulation, and modeling are the key application domains for OOP. Modularity for simpler debugging, reusability of code, flexibility through polymorphism, and effective problem-solving are all benefits of using the object-oriented technique in real-world systems.
 
 
 
@@ -61,9 +84,7 @@ The person1 object is an instance of the Person class, and it is created by call
 
 
 
-
-
-
+               
 
 
 
