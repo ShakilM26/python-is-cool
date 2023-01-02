@@ -1,0 +1,6 @@
+Python's dict is a powerful and vital data structure. But when working with complex dictionaries it has lackings many features that make it easier to access and manipulate nested values, convert dictionaries in different data formats. Solving this problem python-benedict could be the solution you've looking for.
+
+benedict is a subclass of the built-in dict type, meaning that it is fully compatible with existing dictionaries and can be used as a drop-in replacement in most cases.
+
+One of the key features of benedict is its support for keylists and keypaths. This makes it easy to access and manipulate values in complex dictionaries without having to manually dig through nested levels.
+
