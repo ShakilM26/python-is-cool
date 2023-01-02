@@ -1,6 +1,14 @@
-Python's dict is a powerful and vital data structure. But when working with complex dictionaries it has lackings many features that make it easier to access and manipulate nested values, convert dictionaries in different data formats. Solving this problem python-benedict could be the solution you've looking for.
+python-benedict is a dict subclass with keylist/keypath support. It can be use like a normal dictionary. So it is fully compatible with existing dictionaries.
 
-benedict is a subclass of the built-in dict type, meaning that it is fully compatible with existing dictionaries and can be used as a drop-in replacement in most cases.
+Python's dict is a powerful and vital data structure. But when working with complex dictionaries it has lackings many features that make it easier to access and manipulate nested values, convert dictionaries in different data formats. Solving this problem python-benedict could be the solution you've looking for.
 
 One of the key features of benedict is its support for keylists and keypaths. This makes it easy to access and manipulate values in complex dictionaries without having to manually dig through nested levels.
 
+𝙁𝙚𝙖𝙩𝙪𝙧𝙚𝙨:
+* 100% backward-compatible, you can safely wrap existing dictionaries.
+* Keylist support using list of keys as key.
+* Keypath support using keypath-separator (dot syntax by default).
+* Keypath list-index support (also negative) using the standard [n] suffix.
+* Normalized I/O operations with most common formats: base64, csv, ini, json, pickle, plist, query-string, toml, xml, yaml.
+* Many utility and parse methods to retrieve data as needed (check the API section).
+* Well tested. 
