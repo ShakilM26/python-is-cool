@@ -1,0 +1,9 @@
+
+Collections Module
+**********************************
+Collections provides a useful container datatypes. Container 
+datatypes allow us to store and access values in a convenient way. 
+
+Namedtuple is an enhanced version of tuple. as a quick way of creating a python class with certain named attributes. 
+In tuple I can access data through indices. 
+In namedtuple I can access the elements with their names. 
